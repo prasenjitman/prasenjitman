@@ -24,7 +24,7 @@ t1.image('fifawc.jpg', width=50)
 t2.markdown("<h1 style='font-size: 20px; color: orange'>Fifa World Cup</h1>", unsafe_allow_html=True)
 
 def load_data():
-    data = pd.read_excel('C:\\Users\\LENOVO\\Documents\\Python_project\\fifa_world_cup.xlsx')
+    data = pd.read_excel('')
     return data
 
 data = load_data()
